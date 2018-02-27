@@ -23,7 +23,7 @@ router.get('/contact', (req, res, next) => {
 
 /* GET home page. */
 router.get('/', (req, res, next) => {
-  res.render('index', { title: 'Express' });
+  res.render('index', { title: 'Assignment 1' });
 });
 
 module.exports = router;
